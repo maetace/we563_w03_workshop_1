@@ -52,7 +52,7 @@ class WelcomePage extends GetView<WelcomeController> {
               children: [
                 Expanded(
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: controller.onSignUpPressed,
                     style: ElevatedButton.styleFrom(
                       elevation: 0,
                       foregroundColor: Colors.blue,
@@ -70,7 +70,7 @@ class WelcomePage extends GetView<WelcomeController> {
                 ),
                 Expanded(
                   child: ElevatedButton(
-                    onPressed: () {},
+                    onPressed: controller.onLoginPressed,
                     style: ElevatedButton.styleFrom(
                       elevation: 0,
                       foregroundColor: Colors.white,
