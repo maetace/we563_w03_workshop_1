@@ -1,6 +1,6 @@
 # workshop_1
 
-A new Flutter project.
+WEEK #3 - BASIC WIDGETS (WORKSHOP 1) .
 
 ## Getting Started
 

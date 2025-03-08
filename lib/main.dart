@@ -2,8 +2,9 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:workshop_1/pages/home/home_binding.dart';
-import 'package:workshop_1/pages/home/home_page.dart';
+
+import 'pages/welcome/welcome_binding.dart';
+import 'pages/welcome/welcome_page.dart';
 
 void main() {
   runApp(
@@ -11,9 +12,9 @@ void main() {
       enabled: !kReleaseMode,
       builder: (context) => GetMaterialApp(
         useInheritedMediaQuery: true,
-        title: 'Flutter Demo',
-        home: HomePage(),
-        initialBinding: HomeBinding(),
+        title: 'Twitter Clone',
+        home: WelcomePage(),
+        initialBinding: WelcomeBinding(),
       ),
     ),
   );
